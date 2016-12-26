@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GeminiStatisticUtility.App" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Bootstrapper" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAIAAAAAAAAAEAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bootstrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.MEFContainer" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MEFContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.Events.ProjectDataLoadedEvent" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Events\ProjectDataLoadedEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.Events.ProjectDataLoadedEventArgs" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAA=</HashCode>
+      <FileName>Common\Events\ProjectDataLoadedEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.Events.SelectedProjectEvent" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Events\SelectedProjectEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.Events.SelectedProjectEventArgs" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Events\SelectedProjectEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.Events.UpdatedProjectEvent" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Events\UpdatedProjectEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.Events.UpdatedProjectEventArgs" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Events\UpdatedProjectEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.Helper.PasswordBoxHelper" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBABAAAAAAAAAAEAAAAAAACoABAgAAAAAAAAAICAAAg=</HashCode>
+      <FileName>Common\Helper\PasswordBoxHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.Services.DiagramService" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACABIAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Services\DiagramService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.Services.ExcelExportService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABGAAAAAAAAAAABACAAgAIAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Services\ExcelExportService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.Services.GeminiService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAkEACAgACEAAAlAgAACAIAAAAAAAAAEAAAAAAgAA=</HashCode>
+      <FileName>Common\Services\GeminiService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.Types.Pair&lt;T&gt;" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Types\Pair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.Types.Pair&lt;T, U&gt;" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Types\Pair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.Types.PairMVVM&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAQAEAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Types\Pair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Common.ViewNames" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Common\ViewNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Models.ConnectionDataModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAQAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ConnectionDataModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GeminiStatisticUtility.Models.GeneralDataModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\GeneralDataModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GeminiStatisticUtility.Models.ProjectModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAKAAAAAIAgAAIAAAACAAAAAQAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ProjectModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GeminiStatisticUtility.Models.ProjectStatisticModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAFgAAAAAAAACAAAAAAgQAACAAAAAQABAEAAACA=</HashCode>
+      <FileName>Models\ProjectStatisticModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GeminiStatisticUtility.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.ViewModels.ConnectionDataViewModel" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAICAAgABAAAAQgAAAAAACAAAIACBABAAAIAAAI=</HashCode>
+      <FileName>ViewModels\ConnectionDataViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.ViewModels.MainWindowViewModel" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAAACQAAAAAAAQAAAAIAAAAAAAACAAAAAAECAAAA=</HashCode>
+      <FileName>ViewModels\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.ViewModels.ProjectListViewModel" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACgAAAAAIAAAAAAAQAAAAAAEAAAAAAAAACAAA=</HashCode>
+      <FileName>ViewModels\ProjectListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.ViewModels.ProjectStatisticViewModel" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABBiQFKAkAAlAIQKAAEAAAgAAACNQA8AQABANAQAIQ=</HashCode>
+      <FileName>ViewModels\ProjectStatisticViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Views.ConnectionDataDialogView" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ConnectionDataDialogView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Views.MainWindowView" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\MainWindowView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Views.ProjectListView" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ProjectListView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeminiStatisticUtility.Views.ProjectStatisticView" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ProjectStatisticView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GeminiStatisticUtility.Common.Interfaces.IConnectionData" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAQAAAAAAACAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\IConnectionData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GeminiStatisticUtility.Common.Interfaces.IDiagramService" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\IDiagramService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GeminiStatisticUtility.Common.Interfaces.IExportService" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\IExportService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GeminiStatisticUtility.Common.Interfaces.IGeminiService" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\IGeminiService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GeminiStatisticUtility.Common.Interfaces.IGeneralData" Collapsed="true">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\IGeneralData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GeminiStatisticUtility.Common.Interfaces.IProject" Collapsed="true">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAKAAAAAIAgAAIAAAACAAAAAQAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\IProject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GeminiStatisticUtility.Common.Interfaces.IProjectStatistic" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAFgAAAAAAAACAAAAAAgQAACAAAAAQABAEAAACA=</HashCode>
+      <FileName>Common\Interfaces\IProjectStatistic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GeminiStatisticUtility.Common.Interfaces.DiagramType" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAUAAAAAAAEAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Common\Interfaces\IDiagramService.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

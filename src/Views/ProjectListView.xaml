@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="GeminiStatisticUtility.Views.ProjectListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" >
+
+    <StackPanel>
+        <ListView Height="559" Width="310" ItemsSource="{Binding ProjectList, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" 
+                  SelectedItem="{Binding SelectedProject}" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                  ScrollViewer.IsDeferredScrollingEnabled="False" IsSynchronizedWithCurrentItem="True"
+                  BorderBrush="Transparent" BorderThickness="0">
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <StackPanel Margin="0,2">
+                        <TextBlock Text="{Binding ShortInfo.First}" FontSize="13" FontWeight="Black" />
+                        <TextBlock Text="{Binding ShortInfo.Second}" FontSize="11" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackPanel>
+
+</UserControl>

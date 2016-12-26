@@ -1,0 +1,23 @@
+﻿<Window x:Class="GeminiStatisticUtility.Views.MainWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gemini Statistic Utility" Height="600" Width="810"        
+        ResizeMode="NoResize" WindowStyle="ToolWindow"
+        WindowStartupLocation="CenterScreen" >
+
+    <Grid Height="560">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="310" />
+            <ColumnDefinition Width="auto" />
+        </Grid.ColumnDefinitions>
+        <!-- Left Column -->
+        <StackPanel Grid.Column="0">
+            <UserControl Content="{Binding ProjectsListView, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+        <!-- Right Column -->
+        <StackPanel Grid.Column="1">
+            <UserControl Content="{Binding ProjectsStatisticView, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+    </Grid>
+
+</Window>
