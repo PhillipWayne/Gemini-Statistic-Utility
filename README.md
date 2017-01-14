@@ -8,6 +8,8 @@ This windows desktop app generates statistical evaluations, based on project dat
 * Generating and visualising statistics
 * Export result as excel file
 
+The desktop app was programmed using C# + WPF and the Microsoft PRISM Libraries, to implement the architectural pattern MVVM and dependency injection. The WPFToolkit Library was used to visualize the charts and the EXCEL File export is done via the Open XML SDK 2.0
+
 Setup
 --------
 
